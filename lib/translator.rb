@@ -7,12 +7,12 @@ def load_library(library)
   emote_list = YAML.load_file(library)
   get_meaning = {}
   get_emoticon = {}
-  
+  ja_emote={}
   
   emote_list.each do | item |
    item.each do | meaning |
     emotes = item[1]
-    {ja_emote} = emotes[1]
+    ja_emote = emotes[1]
     en_emote = emotes[0]
     get_meaning[ja_emote] = meaning
   
