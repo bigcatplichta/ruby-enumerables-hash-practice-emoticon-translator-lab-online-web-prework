@@ -9,6 +9,9 @@ def load_library(library)
   
   emote_list.each do | item |
    item.each do | meaning |
+    ja_emote = item[1]
+    en_emote = item[0]
+    meaning = get_meaning[ja_emote]
     
   
   # meaning = get_meaning[meaning]
