@@ -7,7 +7,6 @@ def load_library(library)
   emote_list = YAML.load_file(library)
   get_meaning = {}
   get_emoticon = {}
-  # ja_emote = {}
   
   emote_list.each do | item |
    item.each do | meaning |
@@ -20,8 +19,7 @@ def load_library(library)
     binding.pry
 
    end
-  end 
-  emote_list
+  end
 end
 
 def get_japanese_emoticon
