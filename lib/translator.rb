@@ -15,9 +15,6 @@ def load_library(library)
     meaning = get_meaning[ja_emote]
     ja_emote = get_emoticon[en_emote]
   
-  # meaning = get_meaning[meaning]
- 
-    
     binding.pry
 
    end
