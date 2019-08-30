@@ -5,10 +5,9 @@ require "yaml"
 
 def load_library(library)
   emote_list = YAML.load_file(library)
-  translated_hash = {
-  get_meaning => {},
+ 
+  get_meaning => {}
   get_emoticon => {}
-  }
   
   emote_list.each do | item |
    item.each do | meaning |
@@ -22,6 +21,7 @@ def load_library(library)
 
    end
   end
+  translated_hash = {get_meaning, get_emoticon}
 end
 
 def get_japanese_emoticon
