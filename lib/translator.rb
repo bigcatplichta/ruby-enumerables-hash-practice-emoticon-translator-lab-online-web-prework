@@ -22,8 +22,8 @@ def load_library(library)
    end
   end
   translated_hash = {
-  get_meaning => {},
-  get_emoticon => {}
+  get_meaning,
+  get_emoticon
   }
 end
 
