@@ -8,7 +8,7 @@ def load_library(library)
   get_meaning = {}
   
   emote_list.each do | item |
-   item.each do | meaning, (emotes) |
+   item.each do | meaning |
     
   
   # meaning = get_meaning[meaning]
