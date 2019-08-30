@@ -15,7 +15,7 @@ def load_library(library)
  
     
     binding.pry
-    end
+
    end
   end 
   emote_list
