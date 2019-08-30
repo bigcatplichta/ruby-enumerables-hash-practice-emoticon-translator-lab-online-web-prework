@@ -17,14 +17,12 @@ def load_library(library)
     get_meaning[ja_emote] = meaning unless get_meaning[ja_emote]
     get_emoticon[en_emote] = ja_emote unless get_emoticon[en_emote]
   
-    binding.pry
+    
 
    end
   end
-  translated_hash = {
-  get_meaning,
-  get_emoticon
-  }
+  translated_hash = {get_meaning, get_emoticon}
+  binding.pry
 end
 
 def get_japanese_emoticon
