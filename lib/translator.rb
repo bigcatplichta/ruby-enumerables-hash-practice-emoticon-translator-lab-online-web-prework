@@ -22,7 +22,7 @@ def load_library(library)
 
    end
   end
-  translated_hash = {get_meaning, get_emoticon}
+  translated_hash
 end
 
 def get_japanese_emoticon
