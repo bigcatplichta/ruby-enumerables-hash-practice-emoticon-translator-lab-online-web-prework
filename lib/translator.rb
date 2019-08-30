@@ -13,7 +13,7 @@ def load_library(library)
     ja_emote = item[1]
     en_emote = item[0]
     meaning = get_meaning[ja_emote]
-    
+    ja_emote = get_emoticon[en_emote]
   
   # meaning = get_meaning[meaning]
  
