@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 require "yaml"
 
 # require modules here
@@ -16,7 +16,7 @@ def load_library(library)
     get_meaning[ja_emote] = meaning unless get_meaning[ja_emote]
     get_emoticon[en_emote] = ja_emote unless get_emoticon[en_emote]
   
-    binding.pry
+    # binding.pry
 
    end
   end
