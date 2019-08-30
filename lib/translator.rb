@@ -15,8 +15,8 @@ def load_library(library)
     emotes = item[1]
     ja_emote = emotes[1]
     en_emote = emotes[0]
-    get_meaning[ja_emote] = meaning unless get_meaning[ja_emote]
-    get_emoticon[en_emote] = ja_emote unless get_emoticon[en_emote]
+    "get_meaning"[ja_emote] = meaning unless "get_meaning"[ja_emote]
+    "get_emoticon"[en_emote] = ja_emote unless "get_emoticon"[en_emote]
   
     
 
