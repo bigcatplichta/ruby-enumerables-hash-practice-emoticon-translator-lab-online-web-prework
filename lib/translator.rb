@@ -9,13 +9,13 @@ def load_library(library)
   
   emote_list.each do | item |
    item.each do | meaning |
-    
+    meaning.each do | emotes |
   
   # meaning = get_meaning[meaning]
  
     
     binding.pry
-   
+    end
    end
   end 
   emote_list
