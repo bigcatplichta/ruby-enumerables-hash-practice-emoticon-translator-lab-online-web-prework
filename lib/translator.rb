@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 require "yaml"
 
 # require modules here
@@ -17,14 +17,19 @@ def load_library(library)
     en_emote = emotes[0]
     translated_hash[:get_meaning][ja_emote] = meaning unless translated_hash[:get_meaning][ja_emote]
     translated_hash[:get_emoticon][en_emote] = ja_emote unless translated_hash[:get_emoticon][en_emote]
-    # binding.pry
+    
    end
   end
   translated_hash
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(library, emoticon)
+ emote_list = YAML.load_file(library)
+ 
+ emote_list.each do | emote |
+   
+    binding.pry
+ end
 end
 
 def get_english_meaning
