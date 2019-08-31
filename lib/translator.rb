@@ -25,9 +25,9 @@ end
 
 def get_japanese_emoticon(library, emoticon)
  emote_list = load_library(library)
- 
- emote_list[:get_emoticon][emoticon]
-    
+ sorry_message = "Sorry, that emoticon was not found"
+ if emote_list[:get_emoticon][emoticon]
+    emote_list[:get_emoticon][emoticon]
 
   
 end
