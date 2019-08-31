@@ -24,9 +24,9 @@ def load_library(library)
 end
 
 def get_japanese_emoticon(library, emoticon)
- load_library(library)
+ emote_list = load_library(library)
  
- translated_hash.each do | meaning, (en, j) |
+ emote_list.each do | meaning, (en, j) |
     if emoticon == en
     j 
     # binding.pry
