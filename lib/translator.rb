@@ -29,7 +29,7 @@ def get_japanese_emoticon(library, emoticon)
  emote_list.each do | meaning, (en, j) |
     
    binding.pry
-    end 
+  
  end
 end
 
