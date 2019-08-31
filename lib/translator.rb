@@ -26,11 +26,10 @@ end
 def get_japanese_emoticon(library, emoticon)
  emote_list = load_library(library)
  
- emote_list.each do | meaning, (en, j) |
+ emote_list[:get_emoticon][emoticon]
     
-   binding.pry
+binding.pry
   
- end
 end
 
 def get_english_meaning
