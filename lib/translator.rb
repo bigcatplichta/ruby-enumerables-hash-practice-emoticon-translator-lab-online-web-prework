@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 require "yaml"
 
 # require modules here
@@ -28,7 +28,7 @@ def get_japanese_emoticon(library, emoticon)
  
  emote_list[:get_emoticon][emoticon]
     
-binding.pry
+
   
 end
 
