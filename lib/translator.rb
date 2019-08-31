@@ -36,5 +36,5 @@ end
 def get_english_meaning(library, emoticon)
   emote_list = load_library(library)
   
-  emote_list[:get_meaning][emoticon]
+  if emote_list[:get_meaning][emoticon]
 end
