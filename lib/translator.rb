@@ -24,7 +24,7 @@ def load_library(library)
 end
 
 def get_japanese_emoticon(library, emoticon)
- emote_list = YAML.load_file(library)
+ load_library(library)
  
  emote_list.each do | meaning, (en, j) |
     if emoticon == en
