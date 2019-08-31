@@ -1,4 +1,4 @@
-# require 'pry'
+/
 require "yaml"
 
 # require modules here
@@ -27,9 +27,8 @@ def get_japanese_emoticon(library, emoticon)
  emote_list = load_library(library)
  
  emote_list.each do | meaning, (en, j) |
-    if emoticon == en
-    j 
-    # binding.pry
+    
+   binding.pry
     end 
  end
 end
