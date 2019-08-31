@@ -30,6 +30,7 @@ def get_japanese_emoticon(library, emoticon)
     if emoticon == en
     j 
     binding.pry
+    end 
  end
 end
 
